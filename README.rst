@@ -10,6 +10,7 @@ Available filters:
 * ``pirate`` -- Returns text in "Pirate speak", like you hear in pirate movies.
 * ``rasta`` -- Returns text in a Jamaican "Rastafari" speak, like in Reggae music.
 * ``shakespeare`` -- Returns text in a Shakespearean format.
+* ``ebonics`` -- Returns text in ebonics format, like Rap music. (_Coming soon!_)
 
 Installation
 ============
@@ -31,6 +32,13 @@ you want to change::
 Example
 =======
 
+The best way to see how these filters work is to see it in action! I have set up
+a site on Google App Engine that is running a small Django app that takes a string 
+and then, depending on what language you choose, outputs your new, re-formatted 
+text. Check it out:
+
+http://django-speak.appspot.com/
+
 If you were to use the ``pirate`` filter in your templates, and you pass it this
 string for example::
 
@@ -38,7 +46,7 @@ string for example::
 
 ... you would get this in return::
 
-    Yar is a fancy lass, do yar wants to come carouse with me?
+    Ye be a fancy lass, doos ye wants to carouse wit me?
 
 More...
 =======
@@ -47,9 +55,12 @@ I'm going to continually add new words to each language, and hopefully some more
 languages as well.
 
 If you find any bugs, have some feedback or have a new language requests, go here
-http://github.com/danawoodman/django-speak/issues and create a case.
+http://github.com/danawoodman/django-speak/issues and create a case or get in 
+touch with me. Any feedback is welcome!
 
-If you use these in your project, send me an email at dana (at) danawoodman.com
-so I can see what you did!
+If you use these filters in your project, send me an email so I can see what 
+you did at:
+
+dana (at) danawoodman.com
 
 Enjoy!
