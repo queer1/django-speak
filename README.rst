@@ -10,7 +10,7 @@ Available filters:
 * ``pirate`` -- Returns text in "Pirate speak", like you hear in pirate movies.
 * ``rasta`` -- Returns text in a Jamaican "Rastafari" speak, like in Reggae music.
 * ``shakespeare`` -- Returns text in a Shakespearean format.
-* ``ebonics`` -- Returns text in ebonics format, like Rap music. (_Coming soon!_)
+* ``ebonics`` -- Returns text in ebonics format, like Rap music. (*Coming soon!*)
 
 Installation
 ============
